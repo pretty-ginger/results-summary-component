@@ -1,0 +1,237 @@
+* {
+    font-size: 18px;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Hanken Grotesk' ;
+}
+body {
+    width: 100%;
+}
+/* text codes- main page */
+.page h2,
+p {
+    color: white;
+    
+}
+
+.large {
+    font-size: 4rem;
+    font-weight: 700;
+}
+.white {
+    font-weight: 300;
+}
+.big {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-bottom: .8rem;
+}
+.tiny {
+    font-size: .8rem;
+    font-weight: 300;
+}
+.light {
+    font-weight: 100;
+   justify-self: center;
+   font-size: small;
+   padding-top: 0;
+}
+
+/* main page */
+.page {
+    background-color: rgb(72, 53, 241);
+    border-radius: 30px;
+    align-content: center;
+    padding: 2rem;
+    background-image: linear-gradient(180deg, rgb(101, 66, 254), rgb(72,53,241));
+    text-align: center;
+    
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 50%;
+    box-shadow: 5px 15px 10px hsl(221, 100%, 96%);
+    border-radius: 25px;
+}
+.circle {
+    border-radius: 100%;
+    background-image: linear-gradient(180deg, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0)
+    );
+    margin: 1rem;
+    width: auto;
+    padding: 1rem;
+}
+
+/* info .page */
+.info {
+    display: grid;
+    gap: 1rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    padding: 1rem;
+    font-weight: 500;
+    font-size: .5rem;
+}
+.red {
+    background-color: rgb(255, 246, 245);
+    padding: .5rem;
+    padding-right: 0rem;
+    border-radius: 8px;
+    background-image: url('icon-reaction.svg');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-origin: content-box;
+    
+}
+.yellow {
+    background-color: rgb(255, 251, 242);
+    padding: .5rem;
+    padding-right: 0;
+    border-radius: 8px;
+    background-image: url('icon-memory.svg');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-origin: content-box;
+}
+.green {
+    background-color: rgb(242, 251, 250);
+    padding: .5rem;
+    padding-right: 0rem;
+    border-radius: 8px;
+    background-image: url('icon-verbal.svg');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-origin: content-box;
+}
+.blue {
+    background-color: rgb(243, 243, 253);
+    padding: .5rem;
+    border-radius: 8px;
+    background-image: url('icon-visual.svg');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-origin: content-box;
+}
+
+/* text codes- info page */
+.number {
+    font-size: .8rem;
+    padding-left: 2rem;
+    padding-right: 0;
+    font-weight: 700;
+    color: rgb(194, 187, 195);
+}
+
+.spark {
+    color: rgb(205, 115, 117);
+    font-size: .8rem;
+    padding-left: 1.2rem;
+    
+}
+.brain {
+    color: rgb(242, 178, 52);
+    font-size: .8rem;
+    padding-left: 1.4rem;
+}
+.comment {
+    color: rgb(44, 169, 137) ;
+    font-size: .8rem;
+    padding-left: 1.4rem;
+}
+.eye {
+    color: rgb(38, 45, 159) ;
+    font-size: .8rem;
+    padding-left: 1.4rem;
+}
+.red span.number {
+    padding-left: 1.6rem;
+}
+.yellow span.number {
+    padding-left: 1.6rem ;
+}
+.black {
+    color: rgba(0, 0, 0, 0.836);
+    font-size: .8rem;
+    padding-left: 1.8rem;
+    font-weight: 700;
+}
+
+button {
+    background-color: rgb(48, 59, 89);
+    color: white;
+    border-radius: 32px;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    font-size: .7rem;
+    font-weight: 500;
+}
+.card {
+    margin: auto;
+    margin-top: 5rem;
+    max-width: 500px;
+}
+span .number {
+    text-align: right;
+}
+
+@media  screen and (min-width: 280px) and (max-width: 800px) {
+    body{
+        padding: 0;
+        padding-left: 7rem;
+        margin: 0;
+    }
+
+    .card {
+        grid-template-columns: 1fr;
+        margin: 0;
+        width: 280px;
+        height: 100%;
+    }
+h2 {
+    font-size: 14px;
+}
+    
+.large {
+    font-size: 2.4rem;
+   
+}
+.white {
+    font-weight: 400;
+    font-size: .8rem;
+}
+.big {
+    font-size: 1rem;
+    padding-bottom: .4rem;
+   }
+.tiny {
+    font-size: .7rem;
+    
+}
+.light {
+    font-size: .65rem;
+    
+}
+.circle {
+    width: 100px;
+    margin-left: 3rem;
+    
+}
+.number {
+    font-size: .8rem;
+    padding-right: 0;
+}
+.yellow span.number {
+    padding-left: 3rem;
+}
+.red span.number {
+    padding-left: 3rem;
+}
+.green span.number {
+    padding-left: 3.5rem;
+}
+.blue span.number {
+    padding-left: 3.5rem;
+}
+}
